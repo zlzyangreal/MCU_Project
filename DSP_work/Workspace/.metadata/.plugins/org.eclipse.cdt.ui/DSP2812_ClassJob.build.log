@@ -1,0 +1,19 @@
+
+**** Build of configuration Debug for project DSP2812_ClassJob ****
+
+"D:\\diansai\\CCS12.3\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"D:/diansai/CCS12.3/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --include_path="D:/diansai/DSP_work/Workspace/DSP2812_ClassJob" --include_path="D:/diansai/DSP_work/Workspace/DSP2812_ClassJob/inc" --include_path="D:/diansai/DSP_work/Workspace/DSP2812_ClassJob/src" --include_path="D:/diansai/CCS12.3/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "DSP2812_ClassJob.out"
+Invoking: C2000 Linker
+"D:/diansai/CCS12.3/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"DSP2812_ClassJob.map" --warn_sections -i"D:/diansai/CCS12.3/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"D:/diansai/CCS12.3/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="DSP2812_ClassJob_linkInfo.xml" --rom_model -o "DSP2812_ClassJob.out" "./main.obj" "./src/DSP28_Adc.obj" "./src/DSP28_CpuTimers.obj" "./src/DSP28_DefaultIsr.obj" "./src/DSP28_ECan.obj" "./src/DSP28_Ev.obj" "./src/DSP28_GlobalVariableDefs.obj" "./src/DSP28_Gpio.obj" "./src/DSP28_InitPeripherals.obj" "./src/DSP28_Mcbsp.obj" "./src/DSP28_PieCtrl.obj" "./src/DSP28_PieVect.obj" "./src/DSP28_Sci.obj" "./src/DSP28_Spi.obj" "./src/DSP28_SysCtrl.obj" "./src/DSP28_XIntrupt.obj" "./src/DSP28_Xintf.obj" "../SRAM.cmd"  -llibc.a 
+<Linking>
+warning #10210-D: creating ".stack" section with default size of 0x400; use the -stack option to change the default size
+Finished building target: "DSP2812_ClassJob.out"
+ 
+
+**** Build Finished ****
